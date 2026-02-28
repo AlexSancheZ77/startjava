@@ -1,4 +1,4 @@
-public class VariableNamesTheme {   
+public class VariableNamesTheme {
     public static void main(String[] args) {
         System.out.println("\n        1. РАЗНЫЕ ПЕРЕМЕННЫЕ\n");
 
@@ -124,7 +124,7 @@ public class VariableNamesTheme {
 
         // Компьютер включен?
         boolean isOnComputer = true;
-        System.out.println("- Компьютер включен? = " + isComputerOn);
+        System.out.println("- Компьютер включен? = " + isOnComputer);
 
         // есть равные цифры?
         boolean hasEqualDigits = false;
