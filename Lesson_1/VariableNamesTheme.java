@@ -1,4 +1,3 @@
-// 1. РАЗНЫЕ ПЕРЕМЕННЫЕ
 public class VariableNamesTheme {   
     public static void main(String[] args) {
         System.out.println("\n        1. РАЗНЫЕ ПЕРЕМЕННЫЕ\n");
@@ -94,8 +93,8 @@ public class VariableNamesTheme {
         System.out.println("- Имя работника месяца = " + monthEmployeeName);
 
         // Название электронной книги
-        String titleEbookName = "'Искусство программирования'";
-        System.out.println("- Название электронной книги = " + titleEbookName);
+        String ebookTitle = "'Искусство программирования'";
+        System.out.println("- Название электронной книги = " + ebookTitle);
 
         // Размер
         int size = 1024;
@@ -120,11 +119,11 @@ public class VariableNamesTheme {
         System.out.println("\n        2. BOOLEAN-ПЕРЕМЕННЫЕ\n");
 
         // Сотни равны?
-        Boolean isHundredsEqual = 100 == 100;
-        System.out.println("- Сотни равны? = " + isHundredsEqual);
+        boolean isEqualHundreds = 100 == 100;
+        System.out.println("- Сотни равны? = " + isEqualHundreds);
 
         // Компьютер включен?
-        Boolean isComputerOn = true;
+        boolean isOnComputer = true;
         System.out.println("- Компьютер включен? = " + isComputerOn);
 
         // есть равные цифры?
@@ -132,8 +131,8 @@ public class VariableNamesTheme {
         System.out.println("- есть равные цифры? = " + hasEqualDigits);
         
         // Служба создана?
-        boolean hasServiceCreated = false;
-        System.out.println("- Служба создана? = " + hasServiceCreated);
+        boolean isCreatedService = false;
+        System.out.println("- Служба создана? = " + isCreatedService);
 
         // Файл пустой?
         boolean hasEmptyFile = true;
