@@ -123,8 +123,8 @@ public class VariableNamesTheme {
         System.out.println("- Сотни равны? = " + isEqualHundreds);
 
         // Компьютер включен?
-        boolean isOnComputer = true;
-        System.out.println("- Компьютер включен? = " + isOnComputer);
+        boolean isComputerOn = true;
+        System.out.println("- Компьютер включен? = " + isComputerOn);
 
         // есть равные цифры?
         boolean hasEqualDigits = false;
@@ -135,8 +135,8 @@ public class VariableNamesTheme {
         System.out.println("- Служба создана? = " + isCreatedService);
 
         // Файл пустой?
-        boolean hasEmptyFile = true;
-        System.out.println("- Файл пустой? = " + hasEmptyFile);
+        boolean isEmptyFile = true;
+        System.out.println("- Файл пустой? = " + isEmptyFile);
         
         // Соединение активное?
         boolean isActiveConnection = true;
