@@ -5,9 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class VariablesTheme {
     public static void main(String[] args) {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
         LocalTime localTime = LocalTime.now();
-        final String formattedStartTime = localTime.format(dtf);
         final long start = System.nanoTime();
 
         System.out.println("\n        1. ВЫВОД ASCII-ГРАФИКИ\n");
@@ -59,9 +57,9 @@ public class VariablesTheme {
         System.out.println(" Результат: a1 = " + a1 + ", b1 = " + b1);
         
         System.out.println("- Метод: арифметических операций.");
-        a1 = a1 + b1;
+        a1 += b1;
         b1 = a1 - b1;
-        a1 = a1 - b1;
+        a1 -= b1;
         System.out.println(" Результат: a1 = " + a1 + ", b1 = " + b1);
         
         System.out.println("- Метод: побитовой операции ^");
@@ -171,6 +169,8 @@ public class VariablesTheme {
                 maxMemory, systemDrive, osName, osVersion, javaVersion, pathSeparator);
                 
         System.out.println("\n      8. ЗАМЕР ВРЕМЕНИ РАБОТЫ КОДА\n");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
+        final String formattedStartTime = localTime.format(dtf);
         long finish = System.nanoTime();
         long timeElapsed = finish - start;
         double conversionToSeconds = timeElapsed / 1e9;
